@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+}
+
+body, * {
+    padding: 0 !important; margin: 0: }
+
+#wrapper {
+    width:750px; 
+    height: 750px; 
+    
+     }
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+    border-radius: 100%;
+  /*  background-image:url('media/images/duck.png');*/
+}
+
+
+#duckQuack:hover {
+    /*background-image:url('media/images/duck.png');*/
+    background-color:#661920;
+    cursor: pointer;
+}
+#duckQuack:active {
+    background-color:#db1d2d; 
+    /*background-image:url('media/images/duck.png');*/
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  
+}
+#duckQuack {
+    /*background-image:url('media/images/duck.png');*/
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    margin:auto;
+}
+
+
+#cowMoo:hover {
+    background-color:#6e2819;
+    cursor: pointer;
+}
+#cowMoo:active {
+    background-color:#f0421c; 
+}
+#cowMoo {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+     position: absolute;
+    width: 100px;
+    height: 100px; 
+    margin:auto;
+}
+
+#chickenCluck:hover {
+    background-color:#735b20;
+    cursor: pointer;
+}
+#chickenCluck:active {
+    background-color:#fec02d; 
+}
+#chickenCluck {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    margin:auto;
+}
+
+
+
+/* hover colors
+c: #661920
+d: #6e2819
+e: #735b20
+f: #1b613b
+g: #184d65
+a: #4e2753
+b: #6f3a62
+*/

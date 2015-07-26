@@ -1,57 +1,28 @@
 //alert("here"); //testing
 
 $(document).ready(function() {
-    var cNote = document.getElementById('cAudio');
+    var duckSound = document.getElementById('duck');
     
-    $('#c').mousedown(function(){
-    cNote.currentTime = 0;
-    cNote.play();
+    $('#duckQuack').mousedown(function(){
+    duckSound.currentTime = 0;
+    duckSound.play();
     });
 
-    var dNote = document.getElementById('dAudio');
+    var cowSound = document.getElementById('cow');
     
-    $('#d').mousedown(function(){
-    dNote.currentTime = 0;
-    dNote.play();
-    });
-
-    var eNote = document.getElementById('eAudio');
-    
-    $('#e').mousedown(function(){
-    eNote.currentTime = 0;
-    eNote.play();
-    });
-
-    var fNote = document.getElementById('fAudio');
-    
-    $('#f').mousedown(function(){
-    fNote.currentTime = 0;
-    fNote.play();
+    $('#cowMoo').mousedown(function(){
+    cowSound.currentTime = 0;
+    cowSound.play();
     });
 
 
-    var gNote = document.getElementById('gAudio');
+    var chickenSound = document.getElementById('chicken');
     
-    $('#g').mousedown(function(){
-    gNote.currentTime = 0;
-    gNote.play();
+    $('#chickenCluck').mousedown(function(){
+    chickenSound.currentTime = 0;
+    chickenSound.play();
     });
 
-
-    var aNote = document.getElementById('aAudio');
-    
-    $('#a').mousedown(function(){
-    aNote.currentTime = 0;
-    aNote.play();
-    });
-
-
-    var bNote = document.getElementById('bAudio');
-    
-    $('#b').mousedown(function(){
-    bNote.currentTime = 0;
-    bNote.play();
-    });
 
     $.fn.bounce = function(options) {
     
@@ -120,9 +91,18 @@ $(document).ready(function() {
 };
 
 $(function() {
-    $('#bounce').bounce({
+    $('#duckQuack').bounce({
         'speed': 7
     });
+
+$('#cowMoo').bounce({
+        'speed': 5
+    });
+
+$('#chickenCluck').bounce({
+        'speed': 3
+    });
+
 });
 
 });
