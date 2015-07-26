@@ -2,26 +2,6 @@ body {
     background-color: black;
 }
 
-body, * {
-    padding: 0 !important; margin: 0: }
-
-#wrapper {
-    width:1000px; 
-    height: 1000px; 
-    ;
-     }
-
-li {
-    position: absolute;
-    width: 60px;
-    height: 60px;    
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    background-color:#0FF;
-    line-height: 60px;
-    text-align:center;
-    cursor:pointer; }
 
 
 #instrument {

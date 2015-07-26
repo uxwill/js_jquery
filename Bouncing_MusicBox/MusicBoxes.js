@@ -23,6 +23,19 @@ $(document).ready(function() {
     chickenSound.play();
     });
 
+    var goatSound = document.getElementById('goat');
+    
+    $('#goatBleat').mousedown(function(){
+    goatSound.currentTime = 0;
+    goatSound.play();
+    });
+
+    var dogSound = document.getElementById('dog');
+    
+    $('#dogBark').mousedown(function(){
+    dogSound.currentTime = 0;
+    dogSound.play();
+    });
 
     $.fn.bounce = function(options) {
     
@@ -102,6 +115,15 @@ $('#cowMoo').bounce({
 $('#chickenCluck').bounce({
         'speed': 3
     });
+
+$('#goatBleat').bounce({
+        'speed': 6
+    });
+
+$('#dogBark').bounce({
+        'speed': 6
+    });
+
 
 });
 

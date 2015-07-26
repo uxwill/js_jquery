@@ -19,7 +19,7 @@ body, * {
     margin-top: 10px;
     float:left;
     border-radius: 100%;
-  /*  background-image:url('media/images/duck.png');*/
+    background-image:url('media/images/duck.png');
 }
 
 
@@ -74,6 +74,38 @@ body, * {
     background-color: #45391b;
     border: 3px solid #fec02d;
     position: absolute;
+    width: 100px;
+    height: 100px; 
+    margin:auto;
+}
+
+#goatBleat:hover {
+    background-color:#1b613b;
+    cursor: pointer;
+}
+#goatBleat:active {
+    background-color:#20d071; 
+}
+#goatBleat {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    margin:auto;
+}
+
+#dogBark:hover {
+    background-color:#184d65;
+    cursor: pointer;
+}
+#dogBark:active {
+    background-color:#1a9ddb; 
+}
+#dogBark {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+     position: absolute;
     width: 100px;
     height: 100px; 
     margin:auto;
